@@ -3,8 +3,8 @@ local mymod = GameMain:NewMod("mymod")
 function mymod:OnEnter()
     xlua.private_accessible(CS.CangJingGeMgr)
     --藏经阁建筑上限
-    CS.CangJingGeMgr.Instance.BOOK_SHELF_MEMORY = 10000
-    CS.CangJingGeMgr.Instance:ResetBookSelf()
+   -- CS.CangJingGeMgr.Instance.BOOK_SHELF_MEMORY = 10000
+   -- CS.CangJingGeMgr.Instance:ResetBookSelf()
     
     --绑定选择事件（为手机优化）
     local Event = GameMain:GetMod("_Event")
